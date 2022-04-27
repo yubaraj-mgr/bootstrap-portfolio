@@ -1,0 +1,70 @@
+/* font-family: 'Inknut Antiqua', serif;
+font-family: 'Inria Serif', serif; */
+body {
+  font-family: "Inria Serif", serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.nav-font {
+  font-family: "Inknut Antiqua", serif;
+}
+
+/* hero section */
+.hero {
+  min-height: 60vh;
+  background: linear-gradient(green, orange);
+}
+
+img {
+  border-radius: 50%;
+}
+
+/* .titles */
+.title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: 3rem;
+}
+
+.title span {
+  padding: 0.5rem 2rem;
+  border-bottom: 0.5rem solid red;
+}
+
+.icons i {
+  font-size: 5rem;
+}
+
+/* > is only for div not inside div */
+/* icons i is for all i and also inside i */
+
+.icons > div {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.projects {
+  background-color: green;
+  color: white;
+}
+
+.projects .row {
+  --bs-gutter-x: 0;
+}
+
+.projects a {
+  color: white;
+  text-decoration: none;
+}
+
+/* .row {
+  transform: scale(0.7);
+} */
+
+.about {
+  background: lightgreen;
+  border: 2px solid blue;
+}
